@@ -1,0 +1,20 @@
+body {
+    background-color: darkslategrey;
+}
+
+
+a {
+    color: brown;
+    font-size: 1.2em;
+    padding-right: 11px;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+.td1 {
+    border: 3px ridge saddlebrown
+}
+
+table{color: aliceblue;}

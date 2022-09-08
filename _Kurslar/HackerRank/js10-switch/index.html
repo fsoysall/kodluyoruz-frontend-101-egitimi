@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>js10-switch</title>
+</head>
+
+<body>
+    <script>
+        'use strict';
+
+        process.stdin.resume();
+        process.stdin.setEncoding('utf-8');
+
+        let inputString = '';
+        let currentLine = 0;
+
+        process.stdin.on('data', inputStdin => {
+            inputString += inputStdin;
+        });
+
+        process.stdin.on('end', _ => {
+            inputString = inputString.trim().split('\n').map(string => {
+                return string.trim();
+            });
+
+            main();
+        });
+
+        function readLine() {
+            return inputString[currentLine++];
+        }
+
+        function getLetter(s) {
+            var ca = "aeiou";
+            var cb = "bcdfg";
+            var cc = "hjklm";
+            var cd = "npqrstvwxyz";
+
+            for (var x in s) {
+                if (ca.indexOf(s[x]) > -1) { return "A"; }
+                else if (cb.indexOf(s[x]) > -1) { return "B"; }
+                else if (cc.indexOf(s[x]) > -1) { return "C"; }
+                else if (cd.indexOf(s[x]) > -1) { return "D"; }
+            }
+            return "";
+
+        }
+
+
+    </script>
+</body>
+
+</html>

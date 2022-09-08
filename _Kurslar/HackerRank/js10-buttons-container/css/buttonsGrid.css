@@ -1,0 +1,30 @@
+.buttonContainer>.btn {
+    width: 30%;
+    height: 48px;
+    font-size: 24px;
+}
+
+.buttonContainer {
+    width: 75%;
+}
+
+.btnInfo {
+    font-size: 36px;
+}
+
+body {
+    background-color: brown;
+}
+
+#log,
+#log2 {
+    background-color: cadetblue;
+    border: 3px ridge black;
+    float: right;
+    width: 45%;
+    font-size: 28px;
+}
+
+#log {
+    float: left !important;
+}

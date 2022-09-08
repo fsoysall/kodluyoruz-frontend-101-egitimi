@@ -1,0 +1,34 @@
+<head>
+    <title>HackerRank : vowelsAndConsonants</title>
+</head>
+
+<body>
+    <script>
+        document.write(new Date().toTimeString());
+    </script>
+
+    <hr>
+    <b>Sonuç:</b> <div id="result">...
+    </div>
+
+    <script>
+        function vowelsAndConsonants(s) {
+            let sesliler = 'aeiou';
+            let s1 = []; let s2 = [];
+            
+            for (let a in s) {
+                let b=s[a];
+                sesliler.indexOf(b) > -1 ? s1.push(b ) : s2.push(b );
+            }
+            s1.forEach(a=> { console.log(a); } )
+            s2.forEach(a=> { console.log(a); } )
+        }
+        document.querySelector("#result").innerHTML = vowelsAndConsonants('Selam Sana Ey Bad-ı Saba');
+    </script>
+
+    
+
+    <hr>
+
+
+</body>

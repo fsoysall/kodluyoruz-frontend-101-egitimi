@@ -1,0 +1,38 @@
+<head>
+    <title>HackerRank : getSecondLargest</title>
+</head>
+<body>
+    <script>
+        document.write( new Date().toTimeString() )  ;
+</script>
+
+<hr>
+<b>Sonuç:</b> <div id="result">...
+</div>
+
+<script>
+        function getSecondLargest(nums) {
+            if(nums.length < 2 ) return;
+        
+            nums.sort((a,b) => a-b );
+            nums.reverse();
+            let m1 = nums[0] ;
+            let turn=0;
+            for ( let q in nums ) {
+                //console.log(`${nums[q]} : ${m1}`);
+                if( nums[q] < m1){ return nums[q]  }
+                //console.log(`${nums[q]} : ${m1}`);
+            }
+            return "";
+        }
+        var r= document.getElementById("result");
+        console.log(r.innerText);
+        r.innerText= getSecondLargest( [8 ,9, 10,15, 11,12 ]); 
+         
+         
+    </script>
+
+<hr>
+
+
+</body>

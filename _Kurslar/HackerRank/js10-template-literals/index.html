@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>js10-template-literals</title>
+</head>
+
+<body style="background-color: crimson ;">
+    <script>
+
+        function log(l, l2) { console.log(l2 == null ? l : l + " " + l2); }
+
+        function sides(literals, ...expressions) {
+
+            var a = expressions[0];
+            var p = expressions[1];
+
+            var a1 = Math.sqrt(p * p - (16 * a)); // log(a1,a1);
+            var s1 = ((p + a1) / 4);; // log(s1,s1);
+            var s2 = ((p - a1) / 4);; // log(s2);
+
+            if (s1 > s2) { return [s2, s1]; }
+            return [s1, s2];
+
+
+        }
+
+        function main() {
+            console.log("its starts");
+            let s1 = "10";
+            let s2 = "14";
+
+            [s1, s2] = [s1, s2].sort();
+
+            const [x, y] = sides`The area is: ${Number(s1) * Number(s2)}.\nThe perimeter is: ${2 * (Number(s1) + Number(s2))}.`;
+
+            console.log((s1 === x) ? s1 : -1);
+            console.log((s2 === y) ? s2 : -1);
+        }
+        main();
+
+    </script>
+</body>
+
+</html>
