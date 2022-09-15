@@ -1,0 +1,26 @@
+.error {
+    color: darkred;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+
+
+.border1 {
+    border: 4px ridge darkblue;
+}
+
+.taLeft {
+    text-align: left;
+}
+
+.taCenter {
+    text-align: center;
+}
+
+.taRight {
+    text-align: right;
+}
