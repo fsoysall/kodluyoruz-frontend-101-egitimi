@@ -14,7 +14,7 @@ export
 
         const GetWeatherApi = async () => {
             const url = "https://api.openweathermap.org/data/2.5/";
-            const key = "92e68170989bd9bcad612ae30cec4922"; /* 92e68170989bd9bcad612ae30cec4922 */
+            const key = "api_code"; 
             const { data } = await axios.get(
                 `${url}weather?q=${city.name},tr&units=metric&lang=tr&APPID=${key}`
                 // `${url}onecall?lat=${city.latitude}&lon=${city.longitude}&units=metric&exclude=current,minutely,hourly,alerts&lang=tr&APPID=${key}`
