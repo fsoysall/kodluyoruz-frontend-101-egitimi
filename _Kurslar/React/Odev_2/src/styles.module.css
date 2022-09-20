@@ -1,0 +1,453 @@
+/* add css module styles here (optional) */
+
+
+.reset {
+  border:none;
+  outline:none;
+  cursor: pointer;
+  margin:5px;
+  /* display: block; */
+}
+
+
+.pill{
+  border-radius: 100vh;
+}
+
+
+
+.circle{
+  border-radius: 50%;
+}
+
+.rounded2{
+  border-radius: 2px;
+}
+
+.rounded3{
+  border-radius: 3px;
+}
+
+.rounded4{
+  border-radius: 4px;
+}
+
+
+.rounded5{
+  border-radius: 5px;
+}
+
+
+.rounded6{
+  border-radius: 6px;
+}
+
+.rounded7{
+  border-radius: 7px;
+}
+
+
+.rounded8{
+  border-radius: 8px;
+}
+
+.rounded9{
+  border-radius: 9px;
+}
+
+
+.rounded10{
+  border-radius: 10px;
+}
+
+.rounded20{
+  border-radius: 20px;
+}
+
+
+.disabled{
+  opacity: 0.5;
+}
+
+
+
+.s01{
+  font-size:0.1rem;
+}
+
+.s03{
+  font-size:0.3rem;
+}
+
+.s05{
+  font-size:0.5rem;
+}
+
+.s08{
+  font-size: 0.8rem;
+}
+
+
+.s10{
+  font-size: 1rem;
+}
+
+.s12{
+  font-size: 1.2rem;
+}
+
+
+.s15{
+  font-size: 1.5rem;
+}
+
+
+.s18{
+  font-size: 1.8rem;
+}
+
+
+.s20{
+  font-size: 2rem;
+}
+
+.s25{
+  font-size: 2.5rem;
+}
+
+.s30{
+  font-size: 3rem;
+}
+
+
+
+
+
+
+
+.primary{
+  background-color: rgb(5, 5, 236);
+  color:white;
+}
+
+
+.primaryOutlined{
+  color: rgb(5, 5, 236);
+  background-color:white;
+  border-color:rgb(5, 5, 236);
+  border:1px solid;
+}
+
+
+
+.primaryLink{
+  color: rgb(5, 5, 236);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+.secondary{
+  background-color: rgb(90,98,104);
+  color:white;
+}
+
+
+.secondaryOutlined{
+  color: rgb(90,98,104);
+  background-color:white;
+  border-color:rgb(90,98,104);
+  border:1px solid;
+}
+
+
+
+.secondaryLink{
+  color: rgb(90,98,104);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+
+.success{
+  background-color: rgb(40,167,69);
+  color:white;
+}
+
+
+.successOutlined{
+  color: rgbrgb(40,167,69);
+  background-color:white;
+  border-color:rgb(33,136,56);
+  border:1px solid;
+}
+
+
+
+.successLink{
+  color: rgb(40,167,69);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+
+
+.danger{
+  background-color: rgb(220,53,69);
+  color:white;
+}
+
+
+.dangerOutlined{
+  color: rgb(220,53,69);
+  background-color:white;
+  border-color:rgb(220,53,69);
+  border:1px solid;
+}
+
+
+
+.dangerLink{
+  color: rgb(220,53,69);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+
+
+
+.warning{
+  background-color: rgb(255,193,7);
+  color:white;
+}
+
+
+.warningOutlined{
+  color: rgb(255,193,7);
+  background-color:white;
+  border-color:rgb(255,193,7);
+  border:1px solid;
+}
+
+
+
+.warningLink{
+  color: rgb(255,193,7);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+
+
+
+.info{
+  background-color: rgb(23,162,184);
+  color:white;
+}
+
+
+.infoOutlined{
+  color: rgb(23,162,184);
+  background-color:white;
+  border-color:rgb(23,162,184);
+  border:1px solid;
+}
+
+
+
+.infoLink{
+  color: rgb(23,162,184);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+
+
+
+
+.dark{
+  background-color: rgb(52,58,64);
+  color:white;
+}
+
+
+.darkOutlined{
+  color: rgb(52,58,64);
+  background-color:white;
+  border-color:rgb(52,58,64);
+  border:1px solid;
+}
+
+
+
+.darkLink{
+  color: rgb(52,58,64);
+  background-color:transparent;
+  border-color:transparent;
+}
+
+.psmall{
+  padding: 0.3rem 0.6rem;
+}
+
+
+.pmedium{
+  padding: 0.5rem 1.5rem;
+}
+
+
+.plarge{
+  padding: 1rem 3rem;
+}
+
+
+
+.pxlarge{
+  padding: 1.5rem 5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.primary:hover{
+  transform:scale(1.1);
+}
+
+
+.primaryOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.primaryLink:hover{
+  transform:scale(1.1);
+}
+
+
+.secondary:hover{
+  transform:scale(1.1);
+}
+
+
+.secondaryOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.secondaryLink:hover{
+  transform:scale(1.1);
+}
+
+
+
+.success:hover{
+  transform:scale(1.1);
+}
+
+
+.successOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.successLink:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+.danger:hover{
+  transform:scale(1.1);
+}
+
+
+.dangerOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.dangerLink:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+
+.warning:hover{
+  transform:scale(1.1);
+}
+
+
+.warningOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.warningLink:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+
+.info:hover{
+  transform:scale(1.1);
+}
+
+
+.infoOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.infoLink:hover{
+  transform:scale(1.1);
+}
+
+
+
+
+
+.dark:hover{
+  transform:scale(1.1);
+}
+
+
+.darkOutlined:hover{
+  transform:scale(1.1);
+}
+
+
+
+.darkLink:hover{
+  transform:scale(1.1);
+}
