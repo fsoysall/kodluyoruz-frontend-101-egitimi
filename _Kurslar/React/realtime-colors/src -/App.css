@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  background-image: url("./img/bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 100vh;
+}
+
+.header {
+  padding: 50px 20px 30px 20px;
+}
+
+.header h1 {
+  font-size: 50px;
+  color: #fbb034;
+  text-shadow: 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.selectbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.selectbar #cityname {
+  border: 0;
+  outline: 0;
+  background-color: bisque;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.selectbar .date {
+  color: #fbb034;
+}
+
+.content {
+  margin-top: 20px;
+}
+
+.content .city-title {
+  color: #fbb034;
+}
+
+.HavaDurumu-Gövde {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.HavaDurumu-Gövde .HavaDurumu-card {
+  color: #fbb034;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  padding: 15px;
+  position: relative;
+  transition: all 0.5s linear;
+}
+
+.HavaDurumu-Gövde .HavaDurumu-card:hover {
+  bottom: 15px;
+  cursor: pointer;
+  backdrop-filter: blur(50px);
+}
+
+.HavaDurumu-Gövde .HavaDurumu-card .HavaDurumu-Açıklama {
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+
+.HavaDurumu-Gövde .HavaDurumu-card .HavaDurumu-Isı {
+  font-size: 17px;
+  font-style: italic;
+  margin-top: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+.header {
+  background: url("https://images.unsplash.com/photo-1548107846-6b3a3b848881?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80") no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.header p {
+  font-size: 5em;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #ffff;
+}
+
+.header button {
+  border: none;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 2em;
+  transition: all 0.5s ease-in-out;
+  background: #fff;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background: #03a9f4;
+  color: #fff;
+}
+
+.header button:focus {
+  outline: none;
+}
+
+
+
+ */

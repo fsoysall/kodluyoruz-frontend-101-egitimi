@@ -1,0 +1,42 @@
+_Kurslar.rar
+_Kurslar/React/node_modules
+_Kurslar/React/hello-react/node_modules
+_Kurslar/React/CONTACTS-APP/node_modules
+_Kurslar/React/CONTACTS-APP/.gitignore
+_Kurslar/React/CONTACTS-APP/package-lock.json
+_Kurslar/React/CONTACTS-APP/package.json
+_Kurslar/React/CONTACTS-APP/README.md
+_Kurslar/React/CONTACTS-APP/yarn.lock
+_Kurslar/React/Odev_2/node_modules
+_Kurslar/React/Odev_2/Kaynak
+_Kurslar/React/states/node_modules
+eski_git
+ hava_durumu_2022-09-12_01-20-06.rar
+ just-learning_2022-09-09_01-16-24.rar
+ React_Eski
+ node_modules
+
+*.lock
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
